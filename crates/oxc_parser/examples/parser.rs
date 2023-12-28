@@ -18,8 +18,8 @@ fn main() {
     let ret = Parser::new(&allocator, &source_text, source_type).parse();
 
     if ret.errors.is_empty() {
-        println!("{}", serde_json::to_string_pretty(&ret.program).unwrap());
-        println!("Parsed Successfully.");
+        // println!("{}", serde_json::to_string_pretty(&ret.program).unwrap());
+        println!("Parsed Successfully. {}", ret.program.body.len());
     } else {
         for error in ret.errors {
             let error = error.with_source_code(source_text.clone());
