@@ -86,18 +86,18 @@ oxc_prettier       = { path = "crates/oxc_prettier" }
 oxc_tasks_common = { path = "tasks/common" }
 oxc_vscode       = { path = "editors/vscode/server" }
 
-bpaf                      = { version = "0.9.8" }
-bitflags                  = { version = "2.4.1" }
+bpaf                      = { version = "0.9.9" }
+bitflags                  = { version = "2.4.2" }
 bumpalo                   = { version = "3.14.0" }
 compact_str               = { version = "0.7.1" }
 convert_case              = { version = "0.6.0" }
 criterion                 = { version = "0.5.1", default-features = false }
 crossbeam-channel         = { version = "0.5.8" }
 dashmap                   = { version = "5.5.3" }
-env_logger                = { version = "0.10.1", default-features = false, features = ["auto-color", "humantime"] }
+env_logger                = { version = "0.10.2", default-features = false, features = ["auto-color", "humantime"] }
 flate2                    = { version = "1.0.28" }
-futures                   = { version = "0.3.29" }
-ignore                    = { version = "0.4.21" }
+futures                   = { version = "0.3.30" }
+ignore                    = { version = "0.4.22" }
 itertools                 = { version = "0.12.0" }
 jemallocator              = { version = "0.5.4" }
 lazy_static               = { version = "1.4.0" }
@@ -107,18 +107,18 @@ num-bigint                = { version = "0.4.4" }
 num-traits                = { version = "0.2.17" }
 phf                       = { version = "0.11" }
 pico-args                 = { version = "0.5.0" }
-proc-macro2               = { version = "1.0.70" }
+proc-macro2               = { version = "1.0.78" }
 project-root              = { version = "0.2.2" }
-quote                     = { version = "1.0.33" }
-rayon                     = { version = "1.8.0" }
-regex                     = { version = "1.10.2" }
+quote                     = { version = "1.0.35" }
+rayon                     = { version = "1.8.1" }
+regex                     = { version = "1.10.3" }
 rustc-hash                = { version = "1.1.0", default-features = false, features = ["std"] }
 ryu-js                    = { version = "1.0.0" }
 ropey                     = { version = "1.6.1" }
-serde                     = { version = "1.0.193" }
-serde_json                = { version = "1.0.108" }
+serde                     = { version = "1.0.195" }
+serde_json                = { version = "1.0.111" }
 syn                       = { version = "=1" }
-thiserror                 = { version = "1.0.51" }
+thiserror                 = { version = "1.0.56" }
 tokio                     = { version = "1" }
 tower-lsp                 = { version = "0.20.0", features = ["proposed"] }
 unicode-id-start          = { version = "1.1.2" }
