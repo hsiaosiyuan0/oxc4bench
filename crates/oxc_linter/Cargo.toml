@@ -44,7 +44,7 @@ convert_case = { workspace = true }
 
 rust-lapper = "1.1.0"
 once_cell   = "1.19.0"
-memchr      = "2.6.4"
+memchr      = "2.7.1"
 
 [dev-dependencies]
 miette = { workspace = true }
